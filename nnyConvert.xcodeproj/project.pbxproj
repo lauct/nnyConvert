@@ -16,6 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3461AFF615EA682200D8235F /* dic_tw.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = dic_tw.py; path = nnyConvert/dic_tw.py; sourceTree = "<group>"; };
+		3461AFF715EA682200D8235F /* dic_tw.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; name = dic_tw.pyc; path = nnyConvert/dic_tw.pyc; sourceTree = "<group>"; };
+		3461AFF815EA682200D8235F /* g2butf8.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = g2butf8.py; path = nnyConvert/g2butf8.py; sourceTree = "<group>"; };
+		3461AFF915EA682200D8235F /* userdic.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = userdic.txt; path = nnyConvert/userdic.txt; sourceTree = "<group>"; };
 		34E6682415EA40A200B42A4A /* nnyConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nnyConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E6682815EA40A200B42A4A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		34E6682B15EA40A200B42A4A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -43,10 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3461AFFA15EA7F2B00D8235F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3461AFF915EA682200D8235F /* userdic.txt */,
+				3461AFF615EA682200D8235F /* dic_tw.py */,
+				3461AFF715EA682200D8235F /* dic_tw.pyc */,
+				3461AFF815EA682200D8235F /* g2butf8.py */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		34E6681915EA40A200B42A4A = {
 			isa = PBXGroup;
 			children = (
 				34E6682E15EA40A200B42A4A /* nnyConvert */,
+				3461AFFA15EA7F2B00D8235F /* Resources */,
 				34E6682715EA40A200B42A4A /* Frameworks */,
 				34E6682515EA40A200B42A4A /* Products */,
 			);
@@ -292,6 +308,7 @@
 				34E6684415EA40A200B42A4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

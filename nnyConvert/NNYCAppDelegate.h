@@ -9,7 +9,14 @@
 #import <Cocoa/Cocoa.h>
 
 @interface NNYCAppDelegate : NSObject <NSApplicationDelegate>
-
+{
+    NSTask *task;
+    NSString *utf8lang;
+    NSMutableArray *args;
+}
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)ClearPath:(NSButton *)sender;
+- (IBAction)TapConvert:(NSButton *)sender;
+@property (assign) IBOutlet NSTextFieldCell *FilePathTextFieldCell;
 
 @end
