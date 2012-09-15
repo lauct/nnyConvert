@@ -41,15 +41,13 @@
     {
         [args addObject:(NSString*)filePath];
         [task setArguments:args];
-        [task setEnvironment:[NSDictionary dictionaryWithObject:utf8lang forKey:@"LC_ALL"]];
+        [task setEnvironment:[NSDictionary dictionaryWithObject:utf8lang forKey:@"LC_ALL"]];            
         
         [task launch];
     } else
     {
         exit(0);
-    }
-    
-    
+    }        
     
 }
 - (IBAction)ClearPath:(id)sender {
