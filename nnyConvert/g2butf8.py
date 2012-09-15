@@ -91,6 +91,7 @@ dir_separator = os.path.sep
 
 
 def convertFile(target_file):
+	user_dic= {}
 	if os.path.exists(target_file):
 		f_encoding = getEncoding(target_file)
 		print u"正在轉換", target_file, u" 編碼為: ", f_encoding
