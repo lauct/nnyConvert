@@ -29,11 +29,11 @@
 		34E6682D15EA40A200B42A4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		34E6683015EA40A200B42A4A /* nnyConvert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nnyConvert-Info.plist"; sourceTree = "<group>"; };
 		34E6683215EA40A200B42A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		34E6683415EA40A200B42A4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34E6683415EA40A200B42A4A /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.m; sourceTree = "<group>"; };
 		34E6683615EA40A200B42A4A /* nnyConvert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nnyConvert-Prefix.pch"; sourceTree = "<group>"; };
 		34E6683815EA40A200B42A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		34E6683A15EA40A200B42A4A /* NNYCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNYCAppDelegate.h; sourceTree = "<group>"; };
-		34E6683B15EA40A200B42A4A /* NNYCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNYCAppDelegate.m; sourceTree = "<group>"; };
+		34E6683B15EA40A200B42A4A /* NNYCAppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NNYCAppDelegate.m; sourceTree = "<group>"; };
 		34E6683E15EA40A200B42A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +146,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NNYC;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Chun-Ting Liu";
 			};
 			buildConfigurationList = 34E6681E15EA40A200B42A4A /* Build configuration list for PBXProject "nnyConvert" */;
@@ -226,7 +226,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -253,7 +252,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
