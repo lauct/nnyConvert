@@ -14,9 +14,9 @@
 *.mode2v3
 
 *.xcuserstate
-project.xcworkspace/
+*project.xcworkspace*
 xcuserdata/
-
+*xcuserdata*/
 
 # Generated files
 *.o
