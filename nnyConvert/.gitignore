@@ -1,9 +1,11 @@
+# OSX
 .DS_Store
 *.swp
+
+# Backup files
 *~.nib
 
-build/
-
+# Xcode
 *.pbxuser
 *.perspective
 *.perspectivev3
@@ -11,6 +13,16 @@ build/
 *.mode1v3
 *.mode2v3
 
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
 
-# Xcode4
-xcuserdata
+
+# Generated files
+*.o
+*.pyc
+
+#Python modules
+MANIFEST
+dist/
+build/
